@@ -48,12 +48,5 @@ namespace P5_2_1214056
         {
             outputText = DateTime.Now.ToString("t");
         }
-
-        internal class Show
-        {
-            public Show()
-            {
-            }
-        }
     }
 }

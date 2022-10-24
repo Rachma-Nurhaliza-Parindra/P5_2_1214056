@@ -54,7 +54,9 @@ namespace P5_2_1214056
 
         private void NewMenuItem_Click(object sender, EventArgs e)
         {
-
+            ChildForm newChild = new ChildForm();
+            newChild.MdiParent = this;
+            newChild.Show();
         }
     }
 }
